@@ -41,4 +41,28 @@ body {
   img {
     max-height: 250px;
   }
+
+  h2 {
+    color: #ffffff;
+  }
+
+  input {
+    border-radius: 4px;
+  }
+
+  button {
+    width: 170px;
+    border-radius: 4px;
+    margin: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    transition: 0.8s;
+    
+  }
+
+  button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
   
