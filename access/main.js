@@ -8,6 +8,12 @@
 }*/
 
 
+/*function converter() {
+    var valorElemento = document.getElementById('valor');
+    var valor = valorElemento.value;
+    console.log(valor);
+}*/
+
 var listaFilmes = ["https://upload.wikimedia.org/wikipedia/pt/d/d2/Top_Gun_Maverick.jpg", 
 "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/4ea629d58c2c785b465211f3fb4d284dc743e6218dc9e03c0dbacccaf5e28c53._RI_V_TTW_.jpg",
 "https://leiturafilmica.com.br/wp-content/uploads/2021/07/o-poderoso-chefao-poster.png",
@@ -19,19 +25,17 @@ var listaFilmes = ["https://upload.wikimedia.org/wikipedia/pt/d/d2/Top_Gun_Maver
 "https://upload.wikimedia.org/wikipedia/pt/a/ac/Saving_Private_Ryan_poster.jpg",
 "https://miscelaneacult.files.wordpress.com/2010/04/rocky41.jpg"]
 
-for(var i = 0; i < listaFilmes.length; i++) {
-    document.write("<img src=" + listaFilmes[i] + ">")
-   
-}
-
-/*function iserirFilmeNovo(evento) {
 
 
+
+function iserirFilmeNovo() {
+    listaFilmes.push(document.getElementById('valor').value);
+    console.log(listaFilmes);
     
-    evento.preventDefault();
-    var valorInput = listaFilmes.push(document.getElementById('valor').value);
-    console.log(valorInput);
-    
+    var selcinaX = document.querySelector('#pushFilme')
+    for(var i = 0; i < listaFilmes.length; i++) {
+        
+        selcinaX.innerHTML+="<img src=" + listaFilmes[i] + ">"
+        
+    }
 }
-
-*/

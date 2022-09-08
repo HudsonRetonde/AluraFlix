@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-image: url("https://ogimg.infoglobo.com.br/in/24308772-36d-ad0/FT1086A/86856180_RSSala-de-cinema-do-Kinoplex-Platinum-Rio-Sul-com-cadeiras-que-deitamFoto-Divulgacao-1.jpg");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -40,6 +40,7 @@ body {
   
   img {
     max-height: 250px;
+    margin: 5px;
   }
 
   h2 {
