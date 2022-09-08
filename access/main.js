@@ -32,10 +32,10 @@ function iserirFilmeNovo() {
     listaFilmes.push(document.getElementById('valor').value);
     console.log(listaFilmes);
     
-    var selcinaX = document.querySelector('#pushFilme')
+    var selecionaX = document.querySelector('#pushFilme')
     for(var i = 0; i < listaFilmes.length; i++) {
         
-        selcinaX.innerHTML+="<img src=" + listaFilmes[i] + ">"
+        selecionaX.innerHTML+="<img src=" + listaFilmes[i] + ">"
         
     }
 }

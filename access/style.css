@@ -40,7 +40,15 @@ body {
   
   img {
     max-height: 250px;
-    margin: 5px;
+    margin: 10px;
+    box-shadow: 10px 5px 15px rgb(3, 0, 16);
+  }
+
+  img:hover {
+    border-color: rgb(244, 46, 46);
+    transform: scale(1.2);
+    transition: 0.7s;
+    cursor: pointer;
   }
 
   h2 {
